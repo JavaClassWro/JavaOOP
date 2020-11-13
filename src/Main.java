@@ -4,12 +4,16 @@ public class Main {
         System.out.println("Hello World!");
         Animal dog = new Dog();
         dog.sound();
+        dog.defaultMethod();
         Animal cat = new Cat();
         cat.sound();
+        cat.defaultMethod();
         Animal[] animals = new Animal[]{new Dog(), new Cat(), new Dog(), new Dog()};
         for (Animal animal : animals) {
             animal.sound();
         }
         ((Dog) dog).sound(3);
+        Animal.staticMethod();
+        Cloneable
     }
 }

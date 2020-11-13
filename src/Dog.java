@@ -1,4 +1,4 @@
-public class Dog extends Animal {
+public class Dog implements Animal {
     Dog(){}
     void Animal(){}
     public void sound() {
